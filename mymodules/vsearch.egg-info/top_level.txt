@@ -1,0 +1,7 @@
+val month:Int = 10
+val monthName = month match {
+
+case 1 => "Jan";
+case 2 => "Feb";
+}
+ 
