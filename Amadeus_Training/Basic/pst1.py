@@ -19,6 +19,7 @@ for item in t[:-3]:
 
 name = 'pam', 'eva', 'walle', 'tim', 'jane'
 print(name)
+print(type(name))
 
 n = (1000)  # type is int
 print(n)

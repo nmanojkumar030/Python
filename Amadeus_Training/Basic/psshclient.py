@@ -21,5 +21,3 @@ class CustomSSHClient:
 ssh = CustomSSHClient('ravijaya.info', 22, 'training', 'training')
 op = ssh.check_output('date')
 print(op)
-
-

@@ -47,4 +47,3 @@ items4.sort()
 items4.reverse()
 
 print(items4)
-

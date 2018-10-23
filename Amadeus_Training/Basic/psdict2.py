@@ -34,7 +34,7 @@ print(info.get('app1', 'tomcat'))
 # Iterate
 
 for item in info:
-        print(item)
+    print(item)
 
-for key, item in info.items():
-        print(key, '->', item)
+for key, item in info.items():  # Get both key and value of dictionary
+    print(key, '->', item)

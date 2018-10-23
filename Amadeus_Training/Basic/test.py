@@ -2,7 +2,7 @@ import math
 
 from pip._internal.commands import list
 
-l1 = [1, 2, 3, [4]]
+l1 = [1, 2, 3, [4]]  # Nested List
 l2 = list(l1)
 
 print(id(l1) == id(l2))

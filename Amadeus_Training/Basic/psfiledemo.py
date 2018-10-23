@@ -1,4 +1,3 @@
-
 fp = open('folderspath.txt')
 
 names_list = []

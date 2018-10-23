@@ -14,7 +14,6 @@ def get_user_list(data_file, target_file):
             content = "{:6}  {}".format(line_no, user)
             print(content)
             fw.write(content + '\n')
-            line_no += 1
 
         fw.close()
     except (FileNotFoundError, IOError) as err:
