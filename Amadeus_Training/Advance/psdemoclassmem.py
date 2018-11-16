@@ -1,24 +1,30 @@
-"""Custom Exception"""
+"""
+
+Implementing Custom Exception
+
+"""
 
 
 class TooManyConnectionError(Exception):
+    # toString method
     def __str__(self):
         return "{} : {}".format(self.__class__.__name__, self.args[0])
 
 
 class Connections:
-    counter = 0  # Class Variables
+    # Class Variables
+    counter = 0
     max_connections = 5
 
+    # initializer
     def __init__(self, connection_id):
         Connections.counter += 1
         self.connection_id = connection_id  # Instance variables
         Connections.check4limits()
 
+    # Class method
     @classmethod  # here @ is called decorators
     def check4limits(cls):
-        """Class method"""
-
         if cls.counter > cls.max_connections:
             raise TooManyConnectionError("Too many concurrent connections")
 
@@ -26,6 +32,7 @@ class Connections:
         return "[{} connection id = {}]".format(self.__class__.__name__, self.connection_id)
 
 
+# Main method
 if __name__ == '__main__':
     try:
         list_of_connection = list()
