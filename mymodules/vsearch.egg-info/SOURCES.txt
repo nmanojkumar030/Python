@@ -1,4 +1,3 @@
-README.txt
 setup.py
 vsearch3.py
 vsearch.egg-info/PKG-INFO

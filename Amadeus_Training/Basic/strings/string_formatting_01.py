@@ -1,5 +1,5 @@
 """Format String"""
-# {:fnt-str}
+# {:fmt-str}
 
 from math import pi
 

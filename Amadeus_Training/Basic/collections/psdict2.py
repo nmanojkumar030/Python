@@ -15,24 +15,20 @@ if item in info:
 print(info)
 
 # Add Operation
-
 info['arch'] = 'x86_64'
 print(info)
 
 # Delete Operation
-
 value = info.pop('desc')  # del info['desc'] - use when you don't need the deleted value
 print(value)
 print(info)
 
 # Read operation
-
 # print(info['app1'])
 print(info.get('app1'))
 print(info.get('app1', 'tomcat'))
 
 # Iterate
-
 for item in info:
     print(item)
 

@@ -1,8 +1,5 @@
 """
-Slicing
-
-name[start-index:end-index]
-
+Slicing -> name[start-index:end-index:step]
 """
 
 s = 'manoj'
@@ -13,6 +10,7 @@ print(s[:4])
 print(s[1:4])
 
 print(s[-1:])
+print(s[4:])
 
 print(s[1:-1])
 

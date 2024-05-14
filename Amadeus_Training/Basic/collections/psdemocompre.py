@@ -10,3 +10,6 @@ print(temp1)
 
 temp3 = [ord(i) for i in 'peter pan']
 print(temp3)
+
+temp4 = [item * item for item in items]
+print(temp4)
