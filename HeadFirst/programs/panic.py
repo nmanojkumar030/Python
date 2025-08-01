@@ -15,6 +15,6 @@ plist.pop()
 
 plist.insert(3, plist.pop())
 
-new_phrase=''.join(plist)
+new_phrase = "".join(plist)
 print(plist)
 print(new_phrase)

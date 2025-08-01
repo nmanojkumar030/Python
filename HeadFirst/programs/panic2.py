@@ -9,6 +9,6 @@ plist.remove("'")
 plist.remove(" ")
 plist.remove("!")
 
-new_phrase=''.join(plist[:3])
-new_phrase = new_phrase+''.join([plist[4],plist[3]])
+new_phrase = "".join(plist[:3])
+new_phrase = new_phrase + "".join([plist[4], plist[3]])
 print(new_phrase)
