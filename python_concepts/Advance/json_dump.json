@@ -1,0 +1,32 @@
+{
+    "C:/": {
+        "agent.log.log": [
+            1980665,
+            "Thu Oct 25 12:20:48 2018"
+        ],
+        "agent.log_backup_1.log": [
+            2097154,
+            "Thu Oct 25 01:23:32 2018"
+        ],
+        "agent.log_error.log": [
+            1591796,
+            "Thu Oct 25 12:20:18 2018"
+        ],
+        "agent.log_error_backup_1.log": [
+            2097180,
+            "Wed Oct 10 20:46:43 2018"
+        ],
+        "hiberfil.sys": [
+            6824800256,
+            "Thu Oct 25 05:31:29 2018"
+        ],
+        "pagefile.sys": [
+            2550136832,
+            "Tue Oct 23 21:14:14 2018"
+        ],
+        "swapfile.sys": [
+            16777216,
+            "Tue Oct 23 21:14:14 2018"
+        ]
+    }
+}
