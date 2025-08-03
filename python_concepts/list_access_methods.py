@@ -1,4 +1,4 @@
-my_list = ['p','r','o','b','e']
+my_list = ["p", "r", "o", "b", "e"]
 
 print(my_list[0])
 
@@ -12,7 +12,7 @@ print(my_list[4])
 # my_list[4.0]
 
 # Nested List
-n_list = ["Happy", [2,0,1,5]]
+n_list = ["Happy", [2, 0, 1, 5]]
 
 # Nested indexing
 
