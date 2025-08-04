@@ -1,4 +1,4 @@
-my_list = ['p','r','o','g','r','a','m','i','z']
+my_list = ["p", "r", "o", "g", "r", "a", "m", "i", "z"]
 
 print(my_list[2:5])
 

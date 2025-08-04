@@ -2,7 +2,7 @@
 Slicing -> name[start-index:end-index:step]
 """
 
-s = 'manoj'
+s = "manoj"
 
 print(s[0:4])
 print(s[:4])
