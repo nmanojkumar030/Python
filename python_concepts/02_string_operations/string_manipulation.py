@@ -1,4 +1,4 @@
-s = b'peter'
+s = b"peter"
 type(s)
 
-s.decode('ascii')
+s.decode("ascii")
