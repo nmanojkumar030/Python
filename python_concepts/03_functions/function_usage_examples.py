@@ -1,13 +1,11 @@
 def demo():
     print("null arguments")
 
-
 print(demo)
 
 
 def demo(a, b):
     print(a + b)
-
 
 print(demo)
 
@@ -16,7 +14,6 @@ print(demo)
 # demo()
 
 demo = "Manoj"
-
 print(demo)
 
 n = 12  # Same as above, assigning different value to same variable

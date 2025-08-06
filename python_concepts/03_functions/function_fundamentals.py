@@ -1,6 +1,6 @@
 def power(x, n=0):
     """Positional argument function / fixed argument"""
-    return x ** n
+    return x**n
 
 
 print(power(4, 5))
