@@ -1,7 +1,7 @@
 vowels = ["a", "e", "i", "o", "u"]
 found = {}
-word = input("Provide a word to search for vowels: ")
-# word = "Milliways"
+# word = input("Provide a word to search for vowels: ")
+word = "Milliways"
 
 found["a"] = 0
 found["e"] = 0
