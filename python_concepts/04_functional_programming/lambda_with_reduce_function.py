@@ -22,6 +22,8 @@ for item in m:
 
 print()
 
-m = map(lambda av: '<ascii char="{}">{}</ascii>'.format(chr(av), av), ascii_values)  # Lambda
+m = map(
+    lambda av: '<ascii char="{}">{}</ascii>'.format(chr(av), av), ascii_values
+)  # Lambda
 for tag in m:
     print(tag)
