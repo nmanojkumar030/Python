@@ -9,8 +9,8 @@ c = Counter(s.split())
 # print(c)
 
 for word in sorted(c, key=lambda w: c[w]):
-    print('{:>22} : {}'.format(word, c[word]))
+    print("{:>22} : {}".format(word, c[word]))
 
-print('*' * 100)
+print("*" * 100)
 for word in sorted(c, key=lambda w: c[w], reverse=True):
-    print('{:>22} : {}'.format(word, c[word]))
+    print("{:>22} : {}".format(word, c[word]))

@@ -1,7 +1,8 @@
 """
- Decorator
-        - Takes function as a argument and returns a function
+Decorator
+       - Takes function as a argument and returns a function
 """
+
 from time import perf_counter
 
 
@@ -10,6 +11,7 @@ from time import perf_counter
 def to_json(func):
     def wrapper_to_json(*args):
         from json import dumps
+
         return dumps(func(*args))
 
     return wrapper_to_json
@@ -43,7 +45,7 @@ print(compute(5))
 @to_json
 @timer
 def square_n_cube(value):
-    return dict(result=(value ** 2, value ** 3))
+    return dict(result=(value**2, value**3))
 
 
 print(square_n_cube(5))  # to_json(square_n_cube)
