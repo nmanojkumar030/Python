@@ -1,5 +1,18 @@
-def sqr_n_cube(value):
-    return value ** 2, value ** 3  # Return multiple values as tuple
+"""
+tuple aka readonly list
+  - immutable list
+  - write once, read many times
 
+"""
 
-print(sqr_n_cube(5))
+t = (12, "pam", 3.4, "kim", "pam", "andy")
+print(t)
+print(type(t))
+print(len(t))
+
+print(t[-3])
+print(t[:-3])
+print(len(t))
+
+for item in t[:-3]:
+    print(item)

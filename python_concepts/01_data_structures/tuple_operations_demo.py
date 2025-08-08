@@ -5,7 +5,7 @@ tuple aka readonly list
 
 """
 
-t = (12, 'pam', 3.4, 'kim', 'pam', 'andy')
+t = (12, "pam", 3.4, "kim", "pam", "andy")
 print(t)
 print(type(t))
 print(len(t))
@@ -17,22 +17,22 @@ print(len(t))
 for item in t[:-3]:
     print(item)
 
-name = 'pam', 'eva', 'walle', 'tim', 'jane'
+name = "pam", "eva", "walle", "tim", "jane"
 print(name)
 print(type(name))
 
-n = (1000)  # type is int
+n = 1000  # type is int
 print(n)
 
 n = (1000,)
 print(n)
 
-s = 'peter',
+s = ("peter",)
 print(s)
 
 # Parallel assignment
 
-name, age, gender = t = 'pam', 3, 'female'
+name, age, gender = t = "pam", 3, "female"
 age = 45
 
 print(name)
