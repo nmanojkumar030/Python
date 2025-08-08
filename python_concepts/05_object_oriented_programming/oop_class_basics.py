@@ -7,5 +7,3 @@ print(si)
 
 print(SystemInformation)
 print(__name__)
-
-

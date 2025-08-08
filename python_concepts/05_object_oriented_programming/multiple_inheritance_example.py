@@ -17,6 +17,6 @@ class Charlie(Alpha, Beta):
         Beta.pprint(self)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     Charlie().pprint()
-    print(Charlie.mro())  # Method Resolution order
+    print(Charlie.mro())  # Method Resolution order (MRO)
